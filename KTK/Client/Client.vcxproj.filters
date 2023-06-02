@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WIN32">
+      <UniqueIdentifier>{e93386c1-52a6-4450-b86f-78221a4b592f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{48782eda-b231-43db-a692-0f4736211696}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{2b6cd22d-133b-47b8-9257-870bcdaba302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{11156a07-80e5-454c-b394-4ef84f45489f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EnemyObject">
+      <UniqueIdentifier>{e6f94443-7428-4103-b33f-273e94a68a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjectManager">
+      <UniqueIdentifier>{aef4dacb-f1b2-487a-a1f4-22b4a4637b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EnemyObject\CCloseObject">
+      <UniqueIdentifier>{207ffce1-3456-4a88-a67f-99f30664eb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CPlayerObject">
+      <UniqueIdentifier>{8f79fe05-6fec-4654-aa2a-443fcb482973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CWallObject">
+      <UniqueIdentifier>{e0e7fe62-c50e-441c-b9ad-ebd8ceb312f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EnemyObject\CRangeObject">
+      <UniqueIdentifier>{a12b8a78-7611-42c6-938f-19fee2bcb2b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EnemyObject\CBossObject">
+      <UniqueIdentifier>{359c991c-2bf2-44fa-802b-3864aacbbca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\CInput">
+      <UniqueIdentifier>{9ae22d39-f3f4-4700-8032-4df277bc6236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnimationManager">
+      <UniqueIdentifier>{2ed2167c-23c3-4415-a718-eb6d112415a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Camera">
+      <UniqueIdentifier>{5bb53c39-427f-4a9d-b8af-b351a8cb70e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UIManager">
+      <UniqueIdentifier>{8dec24db-c95f-4a15-9aa0-64194eea743a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{f5684d0d-0c1b-44fd-aa1b-b84254f01771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\CEffectBase">
+      <UniqueIdentifier>{87fe44f7-5933-4220-a4b5-6d3a70b380ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\CPlayerEffect">
+      <UniqueIdentifier>{404d2f9f-8825-416b-8bf2-694a3ea35d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\CCloseEffect">
+      <UniqueIdentifier>{c623a7b9-11a4-4eaa-8bce-dd82a39163c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\CRangeEffect">
+      <UniqueIdentifier>{54e39b59-74f1-43cd-9f7e-9f47fe6b67bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect\CBossEffect">
+      <UniqueIdentifier>{2b4f1fb5-086a-439b-827f-c8906ccefcd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EnemyObject\CRangeObject\CArrowObject">
+      <UniqueIdentifier>{c8a61424-30f0-4e67-b3f1-dae4eacdc402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{a327211c-ab84-4348-9bd1-ca18a3e8a358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProcess\Sound">
+      <UniqueIdentifier>{a8c91757-be64-4fe3-ba36-f544784881fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{6823f57a-c46c-4903-b830-afac5ff3ff2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SceneManager">
+      <UniqueIdentifier>{618d09f9-06c3-4177-8f8f-f37648d799ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage00">
+      <UniqueIdentifier>{4149ce24-654e-4550-98d5-b6a80e3be262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage01">
+      <UniqueIdentifier>{20390186-6e91-4b2d-a66a-9888f7339683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage02">
+      <UniqueIdentifier>{c07adb04-007c-409e-a69f-b709dd07b3f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage03">
+      <UniqueIdentifier>{fde12bf8-4b7e-4c1f-8bf1-2270ebb3c7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\TitleScene">
+      <UniqueIdentifier>{20cce5ad-8767-4242-b358-776bb6b9fa1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SceneManager\SceneBase">
+      <UniqueIdentifier>{dc6ab34b-a4e7-4556-a34b-bf26ce674f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\CBackGroundObject">
+      <UniqueIdentifier>{9a01a368-42c2-4d39-950c-3dad1bafb897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\EnemyObject\CBossObject\CShadowObject">
+      <UniqueIdentifier>{d61542a4-1b27-48e9-b9e5-e0346bf4a2ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Win32.cpp">
+      <Filter>WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>Input\CInput</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CCloseObject.cpp">
+      <Filter>Object\EnemyObject\CCloseObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerObject.cpp">
+      <Filter>Object\CPlayerObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CWallObject.cpp">
+      <Filter>Object\CWallObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectManager.cpp">
+      <Filter>Object\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>AnimationManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraObject.cpp">
+      <Filter>Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossObject.cpp">
+      <Filter>Object\EnemyObject\CBossObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>UIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CRangeObject.cpp">
+      <Filter>Object\EnemyObject\CRangeObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CArrowObject.cpp">
+      <Filter>Object\EnemyObject\CRangeObject\CArrowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>GameProcess\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage00.cpp">
+      <Filter>Scene\Stage00</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>Scene\SceneManager\SceneBase</Filter>
+    </ClCompile>
+    <ClCompile Include="CTitle.cpp">
+      <Filter>Scene\TitleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="CBackGroundObject.cpp">
+      <Filter>Object\CBackGroundObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage01.cpp">
+      <Filter>Scene\Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="CShadowObject.cpp">
+      <Filter>Object\EnemyObject\CBossObject\CShadowObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnding.cpp" />
+    <ClCompile Include="Stage02.cpp">
+      <Filter>Scene\Stage02</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage03.cpp">
+      <Filter>Scene\Stage03</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Win32.h">
+      <Filter>WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="CSingleton.h">
+      <Filter>WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>Input\CInput</Filter>
+    </ClInclude>
+    <ClInclude Include="CCloseObject.h">
+      <Filter>Object\EnemyObject\CCloseObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerObject.h">
+      <Filter>Object\CPlayerObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CWallObject.h">
+      <Filter>Object\CWallObject</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>AnimationManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectManager.h">
+      <Filter>Object\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraObject.h">
+      <Filter>Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossObject.h">
+      <Filter>Object\EnemyObject\CBossObject</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>UIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CRangeObject.h">
+      <Filter>Object\EnemyObject\CRangeObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CArrowObject.h">
+      <Filter>Object\EnemyObject\CRangeObject\CArrowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>GameProcess\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage00.h">
+      <Filter>Scene\Stage00</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Scene\SceneManager\SceneBase</Filter>
+    </ClInclude>
+    <ClInclude Include="CTitle.h">
+      <Filter>Scene\TitleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="CBackGroundObject.h">
+      <Filter>Object\CBackGroundObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage01.h">
+      <Filter>Scene\Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="CShadowObject.h">
+      <Filter>Object\EnemyObject\CBossObject\CShadowObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnding.h" />
+    <ClInclude Include="Stage02.h">
+      <Filter>Scene\Stage02</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage03.h">
+      <Filter>Scene\Stage03</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{44e211b6-0ec3-45f8-865f-66b74a2be442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CVector2D">
+      <UniqueIdentifier>{cfa080a6-ff80-479d-a959-235356159612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{eacac442-7466-4cce-b64a-3597e9365773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YDEngine">
+      <UniqueIdentifier>{e22eb01e-5777-4689-83fb-ebcfa2b40492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{b0fd2016-b20b-4691-b215-d8cf69ed7979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\AnimationClip">
+      <UniqueIdentifier>{28e0c132-aa10-4e38-b634-b6303fa972d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Animator">
+      <UniqueIdentifier>{259703b0-c6fc-468a-9317-4f1d2d94d87b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation\Sprite">
+      <UniqueIdentifier>{5020c928-e3d2-454e-88c5-c9eda9d6a189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{599655be-1c19-4644-b8a9-904928659764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transform">
+      <UniqueIdentifier>{cbb0d9bb-ba34-4868-a841-e9a1518ae4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ObjectBase">
+      <UniqueIdentifier>{dda88827-0b1f-4ad1-8b21-6399d023e914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{5ec93664-96d7-45f3-9d75-236aa1a48c82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DRMacro.h">
+      <Filter>YDEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="YDEngine.h">
+      <Filter>YDEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWork.h">
+      <Filter>FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector2D.h">
+      <Filter>CVector2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimationClip.h">
+      <Filter>Animation\AnimationClip</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>Animation\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="CSprite.h">
+      <Filter>Animation\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="CColliderBase.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engineenum.h" />
+    <ClInclude Include="Transform.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>YDEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectBase.h">
+      <Filter>ObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="YDEngine.cpp">
+      <Filter>YDEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="CVector2D.cpp">
+      <Filter>CVector2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimationClip.cpp">
+      <Filter>Animation\AnimationClip</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>Animation\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="CSprite.cpp">
+      <Filter>Animation\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="CColliderBase.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjectBase.cpp">
+      <Filter>ObjectBase</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
